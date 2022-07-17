@@ -1,6 +1,6 @@
 import React, { FunctionComponent, useEffect, useState } from 'react';
 import axios from 'axios';
-import { getDevicesURL } from '../resources/strings';
+import { getDevicesURL } from '../resources/urls';
 import Select from 'react-select';
 import { DeviceOptionType } from '../resources/types';
 
